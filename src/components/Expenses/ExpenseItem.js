@@ -7,10 +7,10 @@ import React, { useState } from 'react';
 // in the component function being called again
 // useState is a React hook
 // all hooke start with the word use
-
+// ---------------------------------------------------------------------------------------
 const ExpenseItem = (props) => {
     const [title, setTitle] = useState(props.title);
-
+    console.log("ExpenseItem evaluated by React!");
     // let title = props.title;
 
     const clickHandler = () => {
